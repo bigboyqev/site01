@@ -1,0 +1,206 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1, viewport-fit=cover">
+<meta name="color-scheme" content="dark">
+<title>Bayern Munich vs Ajax · 5 January 2027 | Talanta Sports City</title>
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link rel="preload" as="image" href="assets/crest-home-360.webp">
+<link href="https://fonts.googleapis.com/css2?family=Anton&family=Barlow:wght@400;500&family=Barlow+Condensed:wght@500;700&family=Poppins:wght@600&display=swap" rel="stylesheet">
+<style>
+:root{--bg:#0E0C10;--divider:#2A2529;--input:#4A4247;--head:#fff;--ink:#F5F1EA;--body:#CFC7BB;--muted:#A39A8E;--amber:#F0A20F;--mark-red:#be0000;--mark-white:#fff;--plate-opacity:.09;
+--anton:Anton,Impact,"Arial Narrow",sans-serif;--cond:"Barlow Condensed","Arial Narrow",sans-serif;--barlow:Barlow,system-ui,sans-serif;--pop:Poppins,system-ui,sans-serif;
+box-sizing:border-box;padding-top:env(safe-area-inset-top,0px);padding-bottom:env(safe-area-inset-bottom,0px)}
+html{scroll-padding-top:env(safe-area-inset-top,0px)}
+*,*::before,*::after{box-sizing:inherit}
+body{margin:0;background:var(--bg);color:var(--ink);font-family:var(--barlow);min-height:100vh;display:flex;flex-direction:column}
+a{color:inherit;text-decoration:none}
+.hero{position:relative;overflow:hidden}
+.stadium{display:block;position:absolute;inset:0;background:url(assets/talanta-background.png) center center/cover no-repeat}
+.overlay{display:block;position:absolute;inset:0;background:linear-gradient(180deg,rgba(14,12,16,.3),rgba(14,12,16,.52))}
+.plate-m{position:absolute;left:0;right:0;bottom:0;height:62vw;background:url(assets/stadium-plate.webp) center bottom/100% auto no-repeat;opacity:var(--plate-opacity);-webkit-mask-image:linear-gradient(to bottom,transparent,#000 12%,#000 92%,transparent);mask-image:linear-gradient(to bottom,transparent,#000 12%,#000 92%,transparent)}
+.scrim{position:absolute;inset:0;z-index:5;pointer-events:none;background:linear-gradient(90deg,rgba(0,0,0,0) 0%,rgba(0,0,0,.2) 24%,rgba(0,0,0,.2) 76%,rgba(0,0,0,0) 100%)}
+.sr-only{position:absolute;width:1px;height:1px;margin:-1px;padding:0;overflow:hidden;clip:rect(0,0,0,0);white-space:nowrap;border:0}
+nav{position:relative;z-index:20;display:flex;align-items:flex-end;justify-content:center;height:56px;padding:0 20px}
+.wordmark{margin:0;display:flex;flex-direction:column;align-items:center;gap:6px;line-height:1;white-space:nowrap;text-transform:uppercase}
+.mark{height:30px;width:auto;display:block}
+.btn-outline{display:inline-flex;align-items:center;height:30px;padding:0 14px;border:1px solid rgba(255,255,255,.55);font:600 15px var(--pop);text-transform:uppercase;color:var(--head);white-space:nowrap;transition:.15s}
+.btn-outline:hover,.btn-outline:focus-visible{border-color:var(--amber);color:var(--amber);outline:none}
+.nav-cta{display:none}
+.match{position:relative;height:134vw;overflow:hidden;width:100%}
+.player{position:absolute;display:block;width:auto;max-width:none;flex-shrink:0;pointer-events:none;user-select:none;-webkit-mask-image:linear-gradient(to bottom,#000 88%,transparent);mask-image:linear-gradient(to bottom,#000 88%,transparent)}
+.p-home{left:-3.87vw;top:5.8vw;height:114.18vw}
+.p-away{left:66.54vw;top:7.27vw;height:112.71vw}
+.words{position:absolute;left:18vw;top:5.4vw;width:64vw;z-index:10;display:flex;flex-direction:column;align-items:center;text-align:center;text-shadow:0 2px 18px rgba(0,0,0,.55)}
+.venue{display:inline-flex;flex-direction:column;align-items:center;margin:0;font:700 1em var(--cond);text-transform:uppercase;line-height:1}
+.venue .a{font-size:7vw;color:var(--amber)}
+.venue .b{font-size:4vw;letter-spacing:.03em;color:var(--amber);margin-top:1vw}
+.venue .at{display:flex;width:100%;align-items:center;gap:2vw;font-size:2.6vw;margin:1vw 0}
+.venue .at i{flex:1;height:.5vw;background:var(--head)}
+.venue .c{font-size:4.4vw;letter-spacing:.04em}
+.venue .d{font-size:2.8vw;letter-spacing:.2em;color:var(--amber);margin-top:1vw}
+h1{margin:5vw 0 0;display:inline-flex;font:400 1em var(--anton);text-transform:uppercase;line-height:.92;color:var(--head)}
+h1 .fx{display:flex;flex-direction:column;align-items:stretch}
+h1 .t{font-size:12.5vw}
+h1 .vs{margin:.12em 0;width:100%;background:var(--head);color:var(--bg);font:700 5vw/1.25 var(--cond);text-shadow:none}
+h1 .x{font-size:15vw}
+.crests{display:flex;gap:2.5vw;margin-top:3vw}
+.crest{height:15vw;width:auto;display:block}
+.date{margin:3vw 0 0;font:700 6.4vw/1 var(--cond);text-transform:uppercase;color:var(--amber)}
+.sale{margin:2vw 0 0;display:flex;flex-direction:column;font:700 4.4vw/1.1 var(--cond);text-transform:uppercase}
+.hero-cta{position:relative;z-index:10;display:flex;justify-content:center;padding:8px 0 32px}
+#notify{display:flex;flex-direction:column;gap:14px;border-top:1px solid var(--divider);padding:40px 20px;color:var(--head);scroll-margin-top:16px}
+#notify h2{margin:0;text-align:center;white-space:nowrap;font:400 min(52px,calc(8.77vw - 3.5px))/.88 var(--anton);text-transform:uppercase}
+#notify h2 span{color:var(--amber)}
+.col{display:flex;flex-direction:column;gap:14px}
+.col>p{margin:0;font-size:16px;line-height:1.5;color:var(--body)}
+form{display:flex;flex-direction:column;gap:14px}
+.row{display:flex;flex-direction:column;gap:10px}
+input{min-width:0;flex:1;border:1px solid var(--input);border-radius:0;background:transparent;padding:16px;font:16px var(--barlow);color:var(--head);outline:none}
+input::placeholder{color:var(--muted)}
+input:focus-visible{border-color:var(--ink)}
+input.err{border-color:#ff6b5e}
+button{cursor:pointer;border:0;border-radius:0;background:var(--head);color:var(--bg);padding:16px;font:700 17px var(--cond);letter-spacing:.12em}
+button:hover,button:focus-visible{background:var(--amber);outline:none}
+.notice{margin:0;font-size:15px;line-height:1.45;color:var(--body)}
+#msg{margin:0;font:500 16px var(--barlow);color:var(--amber);min-height:1.2em}
+footer{margin-top:auto;display:flex;flex-direction:column;gap:12px;padding:24px 20px;font:500 14px var(--cond);letter-spacing:.1em;color:var(--muted)}
+footer p{margin:0;display:flex;flex-wrap:wrap;justify-content:center;gap:8px 20px;align-items:center}
+footer a:hover{color:var(--amber)}
+.social{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:repeat(5,1fr);gap:10px}
+.social a{display:flex;height:44px;align-items:center;justify-content:center;border:1px solid var(--input)}
+.social a:hover{border-color:var(--amber)}
+.social svg{width:18px;height:18px;fill:var(--head)}
+@media(min-width:768px){
+ nav{height:auto;align-items:center;justify-content:space-between;padding:32px 64px}
+ .wordmark{flex-direction:row;gap:12px}.mark{height:34px}
+ #notify{display:grid;grid-template-columns:1fr 1fr;align-items:start;gap:64px;padding:72px 64px}
+ #notify h2{text-align:left;font-size:min(76px,calc(4.38vw - 8.4px));line-height:.9}
+ .col>p{font-size:18px}
+ .row{flex-direction:row;gap:0}
+ input{padding:18px 20px;font-size:18px}
+ button{padding:20px 32px;font-size:18px}
+ footer{flex-direction:row;align-items:center;justify-content:space-between;padding:24px 64px;font-size:15px}
+ footer p{justify-content:flex-start}
+ .social{display:flex}.social a{width:44px}
+}
+@media(min-width:1024px){
+ .hero{height:1040px}
+ .nav-cta{display:block}.hero-cta{display:none}
+ .match{position:absolute;inset:104px 0 0;height:auto;display:flex;align-items:flex-end;justify-content:center;overflow:visible}
+ .player{position:static;height:min(calc(100% - .5rem),64vw);-webkit-mask-image:none;mask-image:none}
+ .p-home,.p-away{left:auto;top:auto}
+ .plate-m,.scrim{display:none}
+ .overlay{display:block;position:absolute;inset:0;background:radial-gradient(ellipse 45% 55% at 50% 40%,rgba(14,12,16,.72),rgba(14,12,16,.35) 70%,rgba(14,12,16,.25))}
+ .words{position:relative;left:auto;top:auto;width:auto;max-width:640px;align-self:flex-start;padding:8px min(1.5vw,24px) 0}
+ .venue .a{font-size:min(3.7vw,53px)}.venue .b{font-size:min(2.4vw,34px);margin-top:4px}
+ .venue .at{font-size:min(1.2vw,17px);gap:8px;margin:4px 0}.venue .at i{height:2px}
+ .venue .c{font-size:min(2.6vw,37px)}.venue .d{font-size:min(1.3vw,18px);margin-top:4px}
+ h1{margin-top:min(2vw,28px)}
+ h1 .t{font-size:min(7.1vw,102px)}h1 .vs{font-size:min(3vw,44px)}h1 .x{font-size:min(8.5vw,122px)}
+ .crests{margin-top:min(1.2vw,18px);gap:min(2.5vw,14px)}.crest{height:min(6.2vw,90px)}
+ .date{margin-top:min(1.2vw,18px);font-size:min(2.9vw,42px)}
+ .sale{margin-top:8px;font-size:min(1.9vw,27px)}
+}
+</style>
+</head>
+<body>
+<main>
+<section class="hero">
+  <div class="stadium" aria-hidden="true"></div>
+  <div class="overlay" aria-hidden="true"></div>
+  <nav>
+    <p class="wordmark"><svg role="img" aria-label="Talanta Sports City" viewBox="0 0 319.5 111" focusable="false" class="mark" data-testid="stadium-mark"><path d="M136.5,17s-8.7,9.1-12.2,16.9c0,0,6.2,13.2.3,30.2,0,0,6.3,11.4,12.3,18.5,0,0,6.9-10,12-19.3,0,0-8.2-12.1-.6-31.6,0,0-4.8-9.5-11.8-14.6Z" fill="#be0000"></path><path d="M246.7,25.8s-1.7,5.9-4.2,13.4c0,0,8,13-1.2,26.6l5.5,16.5s5.8-7.9,10.5-18.8c0,0-1.5-5,0-18.4,0,0-1.7-12.5-10.6-19.3Z" fill="#be0000"></path><path d="M47,40c-1.1,2.7-3.6,8.9-4.5,12.1,0,0,1.6,11.4.1,16.4,0,0,1.5,9.8,6.7,15.3l.2-13.5s-3.6-2-3.1-11.5,2.6-10.9,2.6-10.9c0,0-.8-5.1-1.2-7.7s-.6-.5-.7,0Z" fill="#be0000"></path><ellipse cx="136.5" cy="47.6" rx="3.6" ry="2.5" transform="translate(87.6 183.7) rotate(-89.5)" fill="#fff"></ellipse><path d="M137.9,20.1l-.8,22.2s2.8-4.6,3.4-11.4-1.2-9.4-2.6-10.8Z" fill="#fff"></path><path d="M136.4,20l-.8,22.3s-2.8-6.3-2.5-11.4,1.1-8.8,3.3-11Z" fill="#fff"></path><path d="M137.3,53.1l.3,24s2.3-4.2,2.7-12.7-3-11.3-3-11.3Z" fill="#fff"></path><path d="M135.2,52.9l.7,24.2s-3.8-7.4-3.4-15.4,2.7-8.8,2.7-8.8Z" fill="#fff"></path><path d="M251.4,49.3s-1.7,0-1.9,2.3,1.1,4.8,2.4,4.5,2.3-5.8-.6-6.9Z" fill="#fff"></path><path d="M252,57.4c-.3,2.5-1.6,14.2-3.5,19.4,0,.2.2.2.3.1,1-1.6,2.9-5,3.9-9.8s0-8.6-.4-9.7-.3,0-.3,0Z" fill="#fff"></path><path d="M250.7,56.5s-1.3,14.8-3.8,20.8c0,0-1.5-9.4,3.8-20.8Z" fill="#fff"></path><path d="M249,29.5c1.5,2.7,5,10.3,2.9,19.1,0,0-1.5-14.1-3-19s.1-.2.2,0Z" fill="#fff"></path><path d="M247.1,29.1c.6,2.3,2.8,12,3.1,19.2,0,0-4.5-11-3.3-19.2s.2-.1.2,0Z" fill="#fff"></path><path d="M47.2,41.5s-1.5,10.4-2.4,15.4c0,0-2.5-4.5,2.4-15.4Z" fill="#fff"></path><path d="M44.7,64.5c-.3-1.9,1.6,4.2,3.3,15.3.3,2.1-3.5-2.1-3.3-15.3Z" fill="#fff"></path><path d="M44.5,58.1s-.6,1.8-.5,2.7.2,1.1.3,1.8.5.3.6,0c.1-.6.3-1.4.2-2.3,0-1.8,0-2.9-.6-2.2Z" fill="#fff"></path><path d="M62.1,56.6c-.3-1.2-2.4-10.6-2.3-18.3-2.2,5.4-7,17.4-7.3,21.8-.3,4.5,5.7,16.3,8.2,21-.3-4.9-.8-16.6,1.4-24.5Z" fill="#fff"></path><path d="M72.9,28.8l-10.8,4.3c0,1.7-.4,10.7,1.5,19.1,1.2-4.4,4.7-16,9.2-23.5Z" fill="#fff"></path><path d="M74.2,32c-2.2,4.6-8.3,18.3-9,25.1.4,1.2,4.4,13.7,10.3,22.5.2-3.9,1-15.3,4.7-26.6-.6-1.4-5-11.4-6-21.1Z" fill="#fff"></path><path d="M76.9,27.3c0,1.9-.3,11.9,4.4,21.8,1.5-3.9,6.9-17.6,13.8-26.4-2.6.5-8.9,1.9-18.2,4.7Z" fill="#fff"></path><path d="M59.1,34.2l-8.9,4.4c0,1.2-.4,6.5,1.3,14.9,1.1-3.3,3.6-10.9,7.6-19.3Z" fill="#fff"></path><path d="M59.7,84.6c-4.9-8.5-7.2-14.8-8.2-18.1-.5,7.3-.2,16.1,0,18.2h8.2Z" fill="#fff"></path><path d="M63.4,84.5h11.4c-1.6-2.7-7.3-12.1-10.6-21.8-.6,3.9-1.9,13.2-.8,21.8Z" fill="#fff"></path><path d="M98,84.2c-2.1-3.2-10.6-16.4-16.3-28-.4,1.8-1.1,5.2-1.7,9.2-.8,5.3-1.7,12.9-1.2,18.9l19.2-.2Z" fill="#fff"></path><path d="M97.6,23.4c-2.9,3.8-8.9,13.8-14.3,28.9.6,2.8,4.8,11.9,16.2,26.9.9-3.2,4.6-14.4,12.9-28.9-1.5-2.3-11.9-18.9-14.9-26.8Z" fill="#fff"></path><path d="M100,21.9c.6,1.7,3.2,8.2,14.2,25.1,1.1-3,5.2-12.7,17.8-29.1-4.6.4-22.8,2-32,3.9Z" fill="#fff"></path><path d="M101.5,84.2c1.6,0,4.8-.1,9.6-.2,8.7,0,20.1,0,23.7,0-3.3-3.5-7.7-9.6-13-18.3-3.4-5.6-6.3-10.6-7.3-12.5-6.4,10.5-11.9,27.5-13,31Z" fill="#fff"></path><path d="M178.3,17.8c-3.7-.2-19.6-.8-29.8-.7s-4.8,0-6.3.2c.9,1.1,2.7,3.4,5.1,7.1,3,4.6,7.4,12.2,11.8,22.5,2.5-3.5,13.6-19.6,19.2-29.1Z" fill="#fff"></path><path d="M196.9,42.4c-2.8-4.8-7.9-12.8-16.1-23.3-2.6,4.1-17.2,27.2-19.4,30.4l20.2,31.7c2.4-3.3,14.2-20.3,19.6-30.9-.3-.7-1.5-3.4-4.2-7.9Z" fill="#fff"></path><path d="M215.1,21.8c-3.4-.5-21.6-3.4-31-3.7,2.9,3.9,15.5,21,19.2,30.3,1.9-3.6,8.7-16.8,11.8-26.6Z" fill="#fff"></path><path d="M215,83.1c-.7-2.9-4.4-16.1-12-29.5-1.9,3.4-9.8,17.5-20.3,29.8l32.3-.3Z" fill="#fff"></path><path d="M217.2,22.7c-.9,3.3-4.3,15-12,28,.5,1,2.6,5.2,5,10.4,2.4,5.3,5.5,12.9,7.2,19.3,2.1-3.4,9.4-15.2,16.3-27.7-1-2.2-9.4-21-16.4-30.1Z" fill="#fff"></path><path d="M179,83.5l-19.9-31c-6.3,12-17.1,27.8-19.6,31.4l39.5-.4Z" fill="#fff"></path><path d="M244.8,26.4c-2.2-.5-12.6-2.6-24.9-4,2.3,2.4,7.9,9.5,15.7,27.7,1.8-4.2,8.3-19.9,9.2-23.7Z" fill="#fff"></path><path d="M219.4,83.1l24.9-.2c-1-3.2-5.4-18-9.1-27.4-1.7,3.6-7.7,16.2-15.9,27.6Z" fill="#fff"></path><path d="M267,31.6c-.5,4.3-2.5,18.6-4.5,23.3.7,1.6,5.5,12.8,6.2,25.8,2.3-4.3,8.5-16.4,10.4-22.1-.2-1.2-2-13.2-12-26.9Z" fill="#fff"></path><path d="M282.8,58.3c.3,1.3,2.6,12.2,2.1,20.9,1.7-4.4,4.6-12.5,4.7-17.8.1-7.1-2.5-18.3-6.4-24.1.5,3.9,1.4,13.4-.5,21.1Z" fill="#fff"></path><path d="M270.3,82.6h12.5c.1-1.8.5-8.7-2.1-20.5-1.6,3.9-6.4,14.7-10.4,20.5Z" fill="#fff"></path><path d="M280.9,35.2l-11.2-3.9c1.1,1.5,3,4.2,5,7.5,3.2,5.4,5.4,10.1,6.4,14,.5-4.2,1.1-12.1-.2-17.6Z" fill="#fff"></path><path d="M266.4,82.7c-1-7.9-4.2-19.1-5.5-23.6-.8,3.8-3,8.7-6.4,14.8-2.3,4.1-4.6,7.5-5.6,9l17.6-.2Z" fill="#fff"></path><path d="M261,50.5c2-7.1,2.9-18.3,3.1-20.6l-13.5-2.7c3.1,2.9,5.8,7.7,8,14.3,1.2,3.6,2,7,2.4,8.9Z" fill="#fff"></path><path d="M36.2,56.9c-.6,3.2-1,6.7-1,9.7.1,5.1,1.4,10.4,2.4,13.9l-1.3-13.1c0,0-.5-4.7-.2-10.6Z" fill="#fff"></path><path d="M45.1,41.6l-4.7,3.3s-2,9.3-1.4,16.3c1.4-8.6,6-19.6,6-19.6Z" fill="#fff"></path><path d="M40.7,84.8h6.6c-2.1-3.7-5.9-13.8-7.5-18.1-.7,7.8.6,16.2.9,18.1Z" fill="#fff"></path><polygon points="14.7 88.6 305.3 88.6 300.8 85.6 21.5 87.6 14.7 88.6" fill="#fff"></polygon></svg><span class="sr-only">Talanta Sports City</span></p>
+    <div class="nav-cta"><a class="btn-outline" href="#notify">GET NOTIFIED</a></div>
+  </nav>
+  <div class="match">
+    <div class="plate-m" aria-hidden="true"></div>
+    <img class="player p-home" src="assets/players-home-1800.webp" width="639" height="1800" alt="" aria-hidden="true" fetchpriority="high">
+    <div class="scrim" aria-hidden="true"></div>
+    <div class="words">
+      <p class="venue">
+        <span class="a">RAILA ODINGA</span>
+        <span class="b">INTERNATIONAL STADIUM</span>
+        <span class="at" aria-hidden="true"><i></i>AT<i></i></span>
+        <span class="c">TALANTA SPORTS CITY</span>
+        <span class="d">NAIROBI • KENYA</span>
+      </p>
+      <h1>
+        <span class="fx">
+          <span class="t">BAYERN</span><span class="t">MUNICH</span>
+          <span class="vs">VS</span>
+          <span class="x">AJAX</span>
+        </span>
+      </h1>
+      <div class="crests">
+        <img class="crest" src="assets/crest-home-360.webp" width="360" height="360" alt="FC Bayern München crest">
+        <img class="crest" src="assets/crest-away-360.webp" width="360" height="360" alt="AFC Ajax crest">
+      </div>
+      <p class="date">5TH JANUARY 2027</p>
+      <p class="sale"><span>TICKETS ON SALE</span><span>FROM 5TH NOVEMBER</span></p>
+    </div>
+    <img class="player p-away" src="assets/players-away-1200.webp" width="509" height="1200" alt="" aria-hidden="true" fetchpriority="high">
+  </div>
+  <div class="hero-cta"><a class="btn-outline" href="#notify">GET NOTIFIED</a></div>
+</section>
+
+<section id="notify" aria-labelledby="notify-title">
+  <h2 id="notify-title">TICKETS ON SALE <span>5 NOVEMBER</span></h2>
+  <div class="col">
+    <p>Notify me of any updates and news.</p>
+    <form id="f" novalidate>
+      <div class="row">
+        <input id="email" type="email" inputmode="email" autocomplete="email" maxlength="254" placeholder="you@email.com" aria-label="Email address" aria-describedby="notice msg">
+        <button type="submit">NOTIFY ME</button>
+      </div>
+      <p id="msg" role="status"></p>
+      <p id="notice" class="notice">By submitting your email, you also agree for us to send you news and updates about Talanta Sports City.</p>
+    </form>
+  </div>
+</section>
+</main>
+
+<footer>
+  <p><span style="text-transform:uppercase">Talanta Sports City</span><a href="/privacy">PRIVACY</a><a href="/terms">TERMS</a></p>
+  <ul class="social">
+    <li><a href="#" data-social="instagram" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><svg viewBox="0 0 24 24"><path d="M7 2h10a5 5 0 015 5v10a5 5 0 01-5 5H7a5 5 0 01-5-5V7a5 5 0 015-5zm0 2a3 3 0 00-3 3v10a3 3 0 003 3h10a3 3 0 003-3V7a3 3 0 00-3-3H7zm5 3.5a4.5 4.5 0 110 9 4.5 4.5 0 010-9zm0 2a2.5 2.5 0 100 5 2.5 2.5 0 000-5zM17.5 6a1 1 0 110 2 1 1 0 010-2z"/></svg></a></li>
+    <li><a href="#" data-social="x" target="_blank" rel="noopener noreferrer" aria-label="X"><svg viewBox="0 0 24 24"><path d="M18.2 2H21l-6.5 7.4L22 22h-6l-4.7-6.1L5.9 22H3l7-8L2.5 2h6.1l4.2 5.600L18.200 2zm-1 18h1.600L7.900 3.700H6.200L17.200 20z"/></svg></a></li>
+    <li><a href="#" data-social="tiktok" target="_blank" rel="noopener noreferrer" aria-label="TikTok"><svg viewBox="0 0 24 24"><path d="M16.600 2h-3.100v13.400a2.800 2.800 0 11-2.800-2.800c.3 0 .6 0 .8.100V9.500a6 6 0 105.100 5.900V8.600a7.400 7.400 0 004.300 1.400V6.900a4.300 4.300 0 01-4.300-4.900z"/></svg></a></li>
+    <li><a href="#" data-social="youtube" target="_blank" rel="noopener noreferrer" aria-label="YouTube"><svg viewBox="0 0 24 24"><path d="M22 8.200a3 3 0 00-2.100-2.100C18 5.600 12 5.600 12 5.600s-6 0-7.900.5A3 3 0 002 8.200C1.500 10 1.500 12 1.500 12s0 2 .5 3.800a3 3 0 002.100 2.100c1.900.5 7.900.5 7.900.5s6 0 7.900-.5a3 3 0 002.100-2.100c.5-1.800.5-3.800.5-3.800s0-2-.5-3.800zM10 15V9l5.200 3L10 15z"/></svg></a></li>
+    <li><a href="#" data-social="facebook" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><svg viewBox="0 0 24 24"><path d="M14 8V6.500c0-.7.2-1 1.100-1H17V2h-2.800C11 2 10 3.800 10 6.200V8H7.500v3.500H10V22h4V11.500h2.700L17 8h-3z"/></svg></a></li>
+  </ul>
+</footer>
+
+<script>
+/* ===== EDIT YOUR LINKS HERE ===== */
+var SOCIAL={
+  instagram:"https://www.instagram.com/talantasportscity/",
+  x:"https://x.com/talantacity",
+  tiktok:"https://www.tiktok.com/@talantasportscity",
+  youtube:"https://www.youtube.com/@TalantaSportsCity",
+  facebook:"https://web.facebook.com/TalantaSportsCity?_rdc=1&_rdr#"
+};
+document.querySelectorAll('[data-social]').forEach(function(a){a.href=SOCIAL[a.dataset.social]||'#';});
+
+document.getElementById('f').addEventListener('submit',function(e){
+  e.preventDefault();
+  var i=document.getElementById('email'),m=document.getElementById('msg'),b=this.querySelector('button');
+  var email=i.value.trim();
+  var ok=/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(email);
+  i.classList.toggle('err',!ok);
+  if(!ok){m.textContent='Please enter a valid email address.';return;}
+  b.disabled=true;m.textContent='Submitting…';
+  fetch('/api/subscribe',{method:'POST',headers:{'Content-Type':'application/json'},body:JSON.stringify({email:email,website:''})})
+    .then(function(r){return r.json().then(function(d){return{ok:r.ok,d:d};});})
+    .then(function(r){
+      m.textContent=r.ok?'Thanks, you’re on the list.':(r.d.error||'Something went wrong. Please try again.');
+      if(r.ok)i.value='';
+    })
+    .catch(function(){m.textContent='Network error. Please try again.';})
+    .finally(function(){b.disabled=false;});
+});
+</script>
+</body>
+</html>
